@@ -40,3 +40,6 @@ while True:
         else: #Trường hợp delta = 0
             x = -b / (2 * a) #Công thức tính x khi delta = 0
             print("Giá trị của x khi delta bằng 0: ", x)
+
+
+            #chinh sua
