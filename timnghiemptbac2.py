@@ -30,16 +30,13 @@ while True:
         delta = b ** 2 - 4 * a * c #Công thức tính delta
         print(f"Giá trị của delta là: {delta} ") #In ra giá trị của delta
         if delta > 0: #Trường hợp delta > 0
-            print("Vì delta > 0 nên phương trình có 2 nghiệm phân biệt x1, x2: ")
             x1 = (-b + (delta ** (1 / 2))) / (2 * a) #Công thức tính x1
-            print("x1:", x1) #In ra giá trị của x1
             x2 = (-b - (delta ** (1 / 2))) / (2 * a) #Công thức tính x2
-            print("x2:", x2) #In ra giá trị của x2
+            print("Vì delta > 0 nên pt có 2 nghiệm phân biệt x1, x2: ")
+            print("x1:", x1)
+            print("x2:", x2)
         elif delta < 0: #Trường hợp delta < 0
             print("Vì delta < 0 nên phương trình vô nghiệm! ")
         else: #Trường hợp delta = 0
             x = -b / (2 * a) #Công thức tính x khi delta = 0
             print("Giá trị của x khi delta bằng 0: ", x)
-
-
-            #chinh sua
