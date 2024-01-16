@@ -25,7 +25,7 @@ while True:
     #Block else sẽ được thực hiện nếu không có lỗi nào từ khâu nhập các hệ số a, b, c
     else:
         #In ra phương trình bậc 2 dựa trên các hệ số a, b, c
-        print(f"\nPhương trình bậc 2 của bạn: ({int(a)}x^2)+({int(b)}x)+({int(c)}) ")
+        print(f"\nPhương trình bậc 2 của bạn: ({float(a)}x^2)+({float(b)}x)+({float(c)}) ")
         #Tính delta
         delta = b ** 2 - 4 * a * c #Công thức tính delta
         print(f"Giá trị của delta là: {delta} ") #In ra giá trị của delta
